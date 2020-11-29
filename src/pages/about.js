@@ -2,6 +2,8 @@ import React from 'react'
 import { PageLayout } from '../components'
 import { Container } from 'react-bootstrap'
 import { Link, graphql } from 'gatsby'
+import { Icon, InlineIcon } from '@iconify/react'
+import smallOrangeDiamond from '@iconify-icons/openmoji/small-orange-diamond'
 
 export default ({ data }) => {
   //   const MediaLink = ({ title, author, link }) => (
@@ -29,7 +31,11 @@ export default ({ data }) => {
             {designations.map((attr, i) => (
               <span key={attr}>
                 &nbsp;<b>{attr}</b>&nbsp;
-                {i < designations.length - 1 && <>||</>}
+                {i < designations.length - 1 && (
+                  <>
+                    <Icon icon={smallOrangeDiamond} />
+                  </>
+                )}
               </span>
             ))}
           </p>
