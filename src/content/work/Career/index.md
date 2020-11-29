@@ -8,6 +8,10 @@ startDate: '2014-01-08'
 endDate: '2020-11-17'
 ---
 
+<div>
+
+<img width="30px" src="../../icons/globallogic.png" alt="GlobalLogic"></img>
+
 **Revenue Manager - Notif Solutions, @GlobalLogic** **_July 2019-Present_**
 
 <!-- [View](/projects/my-home 'My home, E-commerce') -->
@@ -19,8 +23,11 @@ endDate: '2020-11-17'
   - Implement the backend and user interface implementation for various requirements and business use cases.</p>
 
   - Perform bug fixes and validations across various screens of the notification solutions.</p>
+  </div>
 
-**Service Definition Designer, @GlobalLogic,** **_Sep 2018- June 2019_**
+  <div>
+
+  **Service Definition Designer, @GlobalLogic,** **_Sep 2018- June 2019_**
 
 <!-- [View](/projects/inter-camp 'Intercamp') -->
 
@@ -31,6 +38,11 @@ endDate: '2020-11-17'
   - Bug fixes in existing user interface screen and implementing new screens.</p>
 
   - Writing web services for loading standard tosca types.</p>
+
+</div>
+
+<div>
+<img width="50px" src="../../icons/Accenture.png" alt="Accenture"></img>
 
 **Bank of America - CashPro Online @Accenture,** **_Jan 2014 - Aug 2018_**
 
@@ -43,3 +55,4 @@ endDate: '2020-11-17'
   - Developed the enhanced features and rewrite the existing modules of the application in Angular JS framework.</p>
 
   - Being overall responsible for rewriting complex token management system in financial application. </p>
+  </div>
