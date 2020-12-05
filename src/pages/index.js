@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { PageLayout } from '../components'
-import { Container } from 'react-bootstrap'
+import { Container, Image } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default ({ data }) => {
@@ -9,6 +9,17 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <Container className="text-center pt-3" fluid>
+        <Container className="text-center pt-3" fluid>
+          <Image
+            width="200"
+            height="200"
+            roundedCircle
+            fluid
+            src={`../../icons/mani.jpg`}
+            alt={'front end developer'}
+          />
+        </Container>
+
         <Container className="py-0 my-0">
           <h1 style={{ fontSize: '5rem', color: 'black' }}>
             <span className="first-name">{firstName}</span>&nbsp;
