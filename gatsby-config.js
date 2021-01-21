@@ -75,5 +75,12 @@ module.exports = {
         showSpinner: true,
       },
     },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@cibi246`,
+        limit: 10,
+      },
+    },
   ],
 }
