@@ -25,7 +25,7 @@ export default ({ data }) => {
   return (
     <PageLayout>
       {/* <PageTitle title="About Me" /> */}
-      <Container>
+      <Container> 
         <article className="w-75 m-auto pt-2 text-left about-container">
           <p className="text-center">
             {designations.map((attr, i) => (
